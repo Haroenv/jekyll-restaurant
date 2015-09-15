@@ -2,14 +2,14 @@
 details:
     name: Lorem Restaurant
     address:
-        street: Stationstraat 5
-        city: 8000 Brugge
-        country: Belgium
+        - Stationstraat 5
+        - 8000 Brugge
+        - Belgium
     phone:
-        - 0032497433263
-        - 0032479567234
-        - 003250342881
-    slogan: This restaurant is the most fabulous restaurant of Bruges and surrounding areas. he owners are very humble.
+        - "0032497433263"
+        - "0032479567234"
+        - "003250342881"
+    slogan: This restaurant is the most fabulous restaurant of Bruges and surrounding areas. The owners are very humble.
     menu:
         - dish:
             type: drink
@@ -30,7 +30,9 @@ details:
             contains: beef, sugar
             price: € 10
 design:
-    colours:
-        accent: #745820
-        light: #030201
-        dark: #fafbfa
+    colours: #don't forget the "#" in the implementation
+        accent: "745820"
+        light: "030201"
+        dark: "fafbfa"
+sass:
+    style: compressed
