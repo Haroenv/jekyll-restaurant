@@ -2,4 +2,4 @@
 layout: menu
 title: Menu
 ---
-The menu of the site (content edited in `_config.yml`)
+The menu of the restaurant (content edited in `_config.yml`)
