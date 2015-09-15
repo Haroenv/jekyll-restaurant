@@ -3,3 +3,6 @@ _site/
 
 # General
 .DS_Store
+
+#sass
+.sass-cache/
