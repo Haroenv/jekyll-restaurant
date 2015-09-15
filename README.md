@@ -14,4 +14,4 @@ You can make new blog posts by addig a new file like `2015-09-14-Title.md`, chan
 
 # License
 
-Always ask permission to me ([mail](hello@haroen me) is fine) before using.
+Always ask permission to me ([mail](mailto:hello@haroen me) is fine) before using.
