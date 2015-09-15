@@ -16,3 +16,6 @@
 </head>
 
 <body>
+	<header>
+		<h1><a href="/">{{site.details.name}}</a></h1>
+	</header>

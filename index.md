@@ -1,5 +1,5 @@
 ---
 layout: index
-title: {{ site.name }}
+title: {{ site.details.name }} #to fix
 ---
 Welcome to {{ site.details.name }}
