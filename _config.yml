@@ -6,10 +6,15 @@ details:
         - 8000 Brugge
         - Belgium
     phone:
-        - "0032497433263"
-        - "0032479567234"
-        - "003250342881"
-    slogan: This restaurant is the most fabulous restaurant of Bruges and surrounding areas. The owners are very humble.
+        - "+32 50 342 881"
+        - "+32 497 433 263"
+        - "+32 479 567 234"
+    slogan: This restaurant is the most fabulous restaurant of Bruges and surrounding areas. The owners are very humble. #shorter description
+    description: >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsa voluptatem ducimus mollitia id ratione, repellat quia nemo, nulla, voluptatum earum officiis. Quo ea porro et. Quaerat deleniti voluptates officiis.
+    email: info@loremrestaurant.com
+    twitter: loremrestaurant
+    facebook: lorembrugge
 design:
     colours: #don't forget the "#" in _includes/header.html
         accent: "740304" #also change in _sass/_variables.scss
