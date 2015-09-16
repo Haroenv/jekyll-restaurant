@@ -1,3 +1,14 @@
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: $font-default;
 	background-color: $light;
@@ -6,11 +17,12 @@ body {
 a {
 	color: $accent;
 	text-decoration: none;
-	transition: border 0.4s ease;
-	border-bottom: 2px solid transparentize($accent, 1);
+	transition: background-color 0.4s ease;
+	background-color: transparentize($accent, 1);
 
 	&:hover {
-		border-bottom: 2px solid $accent;
+		background-color: transparentize($accent, .8);
+		border-radius: 2px;
 	}
 
 	&.invisible {
@@ -21,10 +33,50 @@ a {
 
 	&:visited {
 		color: darken($accent, 10%);
-		border-bottom: 2px solid transparentize(darken($accent, 10%), 1);
+		border-bottom: 1px solid transparentize(darken($accent, 10%), 1);
 			&:hover {
-				border-bottom: 2px solid darken($accent, 10%);
+				border-bottom: 1px solid darken($accent, 10%);
 			}
+	}
+}
+
+header {
+	@extend %clearfix;
+	width: 100%;
+}
+
+h1 {
+	float: left;
+	margin: 1rem;
+}
+
+nav {
+	float: right;
+	margin: 1rem;
+	li {
+		float: left;
+		list-style-type: none;
+		border: 1px $accent solid;
+		border-right: none;
+		padding: .2rem 0;
+		&:first-child {
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+		}
+		&:last-child {
+			border-right: 1px solid $accent;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+		}
+		a {
+			padding: .2rem;
+		}
+	}
+
+	@media all and (max-width: 550px) {
+		width: 100%;
+		margin: 1rem auto;
+		text-align: center;
 	}
 }
 
