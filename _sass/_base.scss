@@ -1,3 +1,22 @@
 body {
 	font-family: $font-default;
+	background-color: $light;
 }
+
+a {
+	color: $accent;
+	text-decoration: none;
+	transition: border 0.4s ease;
+	border-bottom: 2px solid transparentize($accent, 1);
+
+	&:hover {
+		border-bottom: 2px solid $accent;
+	}
+
+	&.invisible {
+		color: $dark;
+		border-bottom: none;
+		transition: none;
+	}
+}
+
