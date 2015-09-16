@@ -1,7 +1,7 @@
-name, contains, price
-water, water, € 2
-coca cola, "water, sugar", €3
-wonderous dish, "caviar, water, lobster", € 20
-something else, mystery, € 5
-rice crackers, "rice, crackers", ???
-steak, "beef, sugar", € 10
+name,contains,price
+water,water,€ 2
+coca cola,"water, sugar",€3
+wonderous dish,"caviar, water, lobster",€ 20
+something else,mystery,€ 5
+rice crackers,"rice, crackers",???
+steak,"beef,sugar",€ 10

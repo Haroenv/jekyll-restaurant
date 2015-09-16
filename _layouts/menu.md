@@ -3,6 +3,12 @@
 		{{ content }}
 	</section>
 	{% for dish in site.data.menu %}
-		<li>{{dish}}</li>
+		<li>
+			<ul>
+				<li>{{dish.name}}</li>
+				<li>{{dish.contains}}</li>
+				<li>{{dish.price}}</li>
+			</ul>
+		</li>
 	{% endfor %}
 {% include footer.md %}
