@@ -28,8 +28,7 @@ a {
 
 	&.invisible {
 		color: $dark !important;
-		border-bottom: none;
-		transition: none;
+		background-color: transparentize($accent, 1) !important;
 	}
 
 	&:visited {
