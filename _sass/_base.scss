@@ -18,5 +18,13 @@ a {
 		border-bottom: none;
 		transition: none;
 	}
+
+	&:visited {
+		color: darken($accent, 10%);
+		border-bottom: 2px solid transparentize(darken($accent, 10%), 1);
+			&:hover {
+				border-bottom: 2px solid darken($accent, 10%);
+			}
+	}
 }
 

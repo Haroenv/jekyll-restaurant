@@ -12,7 +12,7 @@ details:
     slogan: This restaurant is the most fabulous restaurant of Bruges and surrounding areas. The owners are very humble.
 design:
     colours: #don't forget the "#" in _includes/header.html
-        accent: "745820" #also change in _sass/_variables.scss
+        accent: "740304" #also change in _sass/_variables.scss
 sass:
     style: compressed
 # disqus: haroenvtrip
