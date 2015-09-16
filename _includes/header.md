@@ -18,4 +18,11 @@
 <body>
 	<header>
 		<h1><a href="/">{{site.details.name}}</a></h1>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/menu">Menu</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ul>
+		</nav>
 	</header>

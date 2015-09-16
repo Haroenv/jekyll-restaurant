@@ -10,25 +10,6 @@ details:
         - "0032479567234"
         - "003250342881"
     slogan: This restaurant is the most fabulous restaurant of Bruges and surrounding areas. The owners are very humble.
-    menu:
-        - dish:
-            type: drink
-            name: coca cola
-            price: € 2
-        - dish:
-            type: entree
-            name: wonderous dish
-            contains: caviar, water, lobster
-            price: € 20
-        - dish:
-            type: main
-            name: rice crackers
-            price: ???
-        - dish:
-            type: dessert
-            name: steak
-            contains: beef, sugar
-            price: € 10
 design:
     colours: #don't forget the "#" in the implementation
         accent: "745820"
