@@ -19,6 +19,7 @@ a {
 	text-decoration: none;
 	transition: background-color 0.4s ease;
 	background-color: transparentize($accent, 1);
+	padding: .2em;
 
 	&:hover {
 		background-color: transparentize($accent, .8);
@@ -67,9 +68,6 @@ nav {
 			border-right: 1px solid $accent;
 			border-top-right-radius: 3px;
 			border-bottom-right-radius: 3px;
-		}
-		a {
-			padding: .2rem;
 		}
 	}
 
