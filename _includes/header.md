@@ -13,7 +13,6 @@
 	<!-- <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" /> -->
 	<!-- <link rel="icon" href="/assets/apple-touch-icon.png"> -->
 	<meta name="description" content="{{site.details.slogan}}" />
-	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 
 <body>

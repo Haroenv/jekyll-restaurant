@@ -1,5 +1,5 @@
 <footer>
-	<section>
+	<div>
 		<h3>Contact</h3>
 		<ul>
 		{% for nr in site.details.phone %}
@@ -9,13 +9,14 @@
 			<li>{{ u }}</li>
 		{% endfor %}
 		</ul>
-	</section>
-	<section>
+	</div>
+	<div>
 		<h3>About</h3>
 		<p>{{ site.details.slogan }}</p>
-	</section>
-	<section>
-	</section>
+	</div>
+	<div>
+		<p>Made by <a href="http://haroen.me">Haroen</a></p>
+	</div>
 </footer>
 </body>
 </html>

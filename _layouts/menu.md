@@ -7,9 +7,9 @@
 		{% for dish in site.data.menu %}
 			<li>
 				<ul>
-					<li>{{dish.name}}</li>
-					<li>{{dish.contains}}</li>
-					<li>{{dish.price}}</li>
+					<li class="name">{{dish.name}}</li>
+					<li class="contains">{{dish.contains}}</li>
+					<li class="price">{{dish.price}}</li>
 				</ul>
 			</li>
 		{% endfor %}
