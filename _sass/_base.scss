@@ -72,7 +72,7 @@ nav {
 		list-style-type: none;
 		border: 1px $accent solid;
 		border-right: none;
-		padding: $margin-tiny 0;
+		padding: $margin-tiny;
 		&:first-child {
 			border-top-left-radius: 3px;
 			border-bottom-left-radius: 3px;
