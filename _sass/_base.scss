@@ -22,7 +22,7 @@ a {
 	text-decoration: none;
 	transition: background-color 0.4s ease;
 	background-color: transparentize($accent, 1);
-	padding: $margin-tiny;
+	padding: $margin-tiny 0;
 
 	&:hover {
 		background-color: transparentize($accent, .9);
@@ -106,7 +106,7 @@ footer {
 
 	li {
 		list-style-type: none;
-		margin: $margin-tiny;
+		margin: $margin-tiny 0;
 	}
 }
 
