@@ -6,14 +6,18 @@
 		<ul>
 		{% for dish in site.data.menu %}
 			<li>
-				<p class="category">{{ dish.category }}</p>
-				<ul>
+				<ul class="dish">
 					<li class="name">{{dish.name}}</li>
-					<li class="contains">{{dish.contains}}</li>
 					<li class="price">{{dish.price}}</li>
+					<li class="contains">{{dish.contains}}</li>
 				</ul>
 			</li>
 		{% endfor %}
 		</ul>
 	</section>
+	<pre>
+		{% for dish in site.data.menu %}
+			{{ dish }}
+		{% endfor %}
+	</pre>
 {% include footer.md %}
