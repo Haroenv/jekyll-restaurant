@@ -25,7 +25,7 @@ a {
 	padding: $margin-tiny;
 
 	&:hover {
-		background-color: transparentize($accent, .8);
+		background-color: transparentize($accent, .9);
 		border-radius: 2px;
 	}
 
@@ -112,6 +112,10 @@ footer {
 
 .content {
 	margin: 2em;
+
+	p {
+		margin: 1em 0;
+	}
 }
 
 .date {
