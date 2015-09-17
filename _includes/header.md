@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title> {% if page.title %} {{ page.title }} | {% endif %} {{ site.details.name }} </title>
+	<title> {{ site.details.name }}{% if page.title %} | {{ page.title }}{% endif %} </title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />

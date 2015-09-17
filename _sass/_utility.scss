@@ -5,3 +5,8 @@
 		clear: both;
 	}
 }
+
+@mixin hyphens {
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}

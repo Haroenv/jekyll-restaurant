@@ -43,13 +43,11 @@ header {
 	@extend %clearfix;
 	width: 100%;
 
-	display: flex;
-	justify-content: center;
-	flex-basis: 100%;
-	align-items: baseline;
-
 	@media all and (max-width: 700px) {
+		display: flex;
+		align-items: baseline;
 		flex-direction: column;
+		justify-content: center;
 		h1, nav {
 			margin: 1em auto;
 		}
@@ -142,7 +140,11 @@ footer {
 
 	.name {
 		font-size: 2em;
+		max-width: 80%;
+		@media all and (max-width: 500px) { max-width: 70%;}
+		@media all and (max-width: 350px) { max-width: 65%;}
 		float: left;
+		@include hyphens;
 	}
 
 	.contains {
