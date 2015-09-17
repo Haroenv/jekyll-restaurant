@@ -6,6 +6,7 @@
 		<ul>
 		{% for dish in site.data.menu %}
 			<li>
+				<p class="category">{{ dish.category }}</p>
 				<ul>
 					<li class="name">{{dish.name}}</li>
 					<li class="contains">{{dish.contains}}</li>

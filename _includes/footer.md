@@ -15,7 +15,13 @@
 		<p>{{ site.details.slogan }}</p>
 	</div>
 	<div>
-		<p>Made by <a href="http://haroen.me">Haroen</a></p>
+		<h3>Social</h3>
+		<ul>
+			{% if site.details.twitter %}<li><a href="https://twitter.com/{{site.details.twitter}}">twitter</a>{% endif %}
+			{% if site.details.facebook %}<li><a href="https://facebook.com/{{site.details.facebook}}">facebook</a>{% endif %}
+			{% if site.details.email %}<li><a href="mailto:{{site.details.email}}">email</a>{% endif %}
+		</ul>
+		<p>Website by <a href="http://haroen.me">Haroen</a></p>
 	</div>
 </footer>
 </body>

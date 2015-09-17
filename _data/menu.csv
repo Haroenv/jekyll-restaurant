@@ -1,7 +1,8 @@
-name,contains,price
-water,water,€ 2
-coca cola,"water, sugar",€3
-wonderous dish,"caviar, water, lobster",€ 20
-something else,mystery,€ 5
-rice crackers,"rice, crackers",???
-steak,"beef,sugar",€ 10
+category,name,contains,price
+drinks,water,water,€ 2
+drinks,coca cola,"water, sugar",€3
+entree,wonderous dish,"caviar, water, lobster",€ 20
+entree,something else,mystery,€ 5
+main course,rice crackers,"rice, crackers",???
+main course,steak,"beef,sugar",€ 10
+dessert,ice cream,"rosemary, ice",€ 5
