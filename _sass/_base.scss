@@ -45,11 +45,14 @@ header {
 
 	display: flex;
 	justify-content: center;
-	flex-basis: 10%;
+	flex-basis: 100%;
 	align-items: baseline;
 
-	@media all and (max-width: 500px) {
+	@media all and (max-width: 700px) {
 		flex-direction: column;
+		h1, nav {
+			margin: 1em auto;
+		}
 	}
 
 }

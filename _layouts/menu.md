@@ -15,9 +15,9 @@
 		{% endfor %}
 		</ul>
 	</section>
-	<pre>
+<!-- 	<pre>
 {% for dish in site.data.menu %}
 {{ dish }}
 {% endfor %}
-	</pre>
+	</pre> -->
 {% include footer.md %}
