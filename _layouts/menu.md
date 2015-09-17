@@ -16,8 +16,8 @@
 		</ul>
 	</section>
 	<pre>
-		{% for dish in site.data.menu %}
-			{{ dish }}
-		{% endfor %}
+{% for dish in site.data.menu %}
+{{ dish }}
+{% endfor %}
 	</pre>
 {% include footer.md %}
