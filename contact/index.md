@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: contact
 title: Contact
 ---
 To be replaced with a contact page featuring:

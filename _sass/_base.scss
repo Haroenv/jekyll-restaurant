@@ -165,3 +165,32 @@ footer {
 		margin: .5rem;
 	}
 }
+
+.hero {
+	background-image: url("../img/hero.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 5rem 0;
+
+	h2 {
+		margin: .5rem;
+		color: $accent;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	h2, p {
+		background-color: $light;
+		max-width: 80%;
+		@media all and (min-width: 900px) {
+			max-width: 40rem;
+		}
+		margin-right: auto;
+		margin-left: auto;
+		display: inline-block;
+	}
+}
