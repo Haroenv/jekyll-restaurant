@@ -14,7 +14,7 @@
 %wrapper {
 	margin-right: auto;
 	margin-left: auto;
-	@media all and (min-width: 900px) {
-		max-width: 40rem;
-	}
+	@media all and (max-width: 900px)  { max-width: 90%;   }
+	@media all and (min-width: 900px)  { max-width: 40rem; }
+	@media all and (min-width: 1300px) { max-width: 60rem; }
 }
