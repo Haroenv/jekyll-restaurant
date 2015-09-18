@@ -186,10 +186,12 @@ footer {
 	h2, p {
 		background-color: $light;
 		max-width: 80%;
-		@media all and (min-width: 900px) {
-			max-width: 40rem;
-		}
 		margin-right: auto;
 		margin-left: auto;
+		@extend %wrapper;
 	}
+}
+
+.posts {
+	@extend %wrapper;
 }

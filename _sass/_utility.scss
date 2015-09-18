@@ -10,3 +10,11 @@
 	-webkit-hyphens: auto;
 	hyphens: auto;
 }
+
+%wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	@media all and (min-width: 900px) {
+		max-width: 40rem;
+	}
+}
