@@ -8,3 +8,4 @@ To be replaced with a contact page featuring:
 - Addres full
 - "booking" form
 - cook and philosophy
+- photos
