@@ -5,6 +5,9 @@ details:
         - Stationstraat 5
         - 8000 Brugge
         - Belgium
+    maps:
+        query: "Lorem+Restaurant+Stationstraat+5+8000+Bruges+Belgium"
+        token: AIzaSyBRi-XI8GF4aou1HrxLRpevEcaW9Wy9Pc0
     phone:
         - "+32 50 342 881"
         - "+32 497 433 263"
