@@ -21,7 +21,7 @@
 			{% if site.details.facebook %}<li><a href="https://facebook.com/{{site.details.facebook}}">facebook</a>{% endif %}
 			{% if site.details.email %}<li><a href="mailto:{{site.details.email}}">email</a>{% endif %}
 		</ul>
-		<p>Website by <a href="http://haroen.me">Haroen</a></p>
+		<p>Website by <a href="https://haroen.me">Haroen</a></p>
 	</div>
 </footer>
 {% if site.google-analytics %}
